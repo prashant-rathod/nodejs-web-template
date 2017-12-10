@@ -1,0 +1,36 @@
+{
+  "name": "pyramid-plus",
+  "version": "1.0.0",
+  "description": "PyramidPlus Website",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "abnato Technologies Private Limited",
+  "license": "ISC",
+  "dependencies": {
+    "boom": "^3.2.1",
+    "emailjs-smtp-client": "^1.0.0",
+    "hapi": "^13.4.1",
+    "inert": "^4.0.0",
+    "node-recaptcha2": "^2.1.2",
+    "nodemailer": "^2.4.2"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-closure-compiler": "0.0.21",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-htmlmin": "^1.4.0",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-qunit": "*",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-processhtml": "^0.4.0",
+    "grunt-purifycss": "^0.1.1",
+    "grunt-text-replace": "^0.4.0",
+    "grunt-uncss": "^0.5.1",
+    "matchdep": "*"
+  }
+}
